@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Merged JavaScript Projects</title>
+</head>
+
+<body>
+    <h2>Operators</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo7"></p>
+    <script>
+        var x = 5;
+        var y = 2;
+        var z = x + y;
+        var a = x - y;
+        var b = x * y;
+        var c = x / y;
+        var d = x % y;
+
+        document.getElementById("demo").innerHTML = z;
+        document.getElementById("demo1").innerHTML = a;
+        document.getElementById("demo2").innerHTML = b;
+        document.getElementById("demo3").innerHTML = c;
+        document.getElementById("demo4").innerHTML = d;
+
+        x += 4;
+        document.getElementById("demo7").innerHTML = x;
+    </script>
+
+    <h1>JavaScript Variables and Statements</h1>
+    <p>Sum of two Numbers</p>
+    <p id="result"></p>
+    <script>
+        var num1 = 15;
+        var num2 = 30;
+        var sum = num1 + num2;
+        var product = num1 * num2;
+
+        document.getElementById("result").innerHTML =
+            "The total sum is: " + sum + " and the product is: " + product;
+    </script>
+</body>
+
+</html>
